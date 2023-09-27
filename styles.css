@@ -100,3 +100,33 @@ section{
     font-size: var(--big-font);
     font-weight: 700;
 }
+.home-content p{
+    color: var(--text-color);
+}
+
+.info-box{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin: 1rem 0 2rem;
+}
+
+.info-box h5{
+    font-weight: 600;
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+.info-box span{
+    font-size: 0.9rem;
+    color: #bdbdbd;
+}
+
+.btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    height: 45px;
+
+}
