@@ -205,3 +205,36 @@ a.btn:nth-child(2)::before{
 .social-icons a:hover{
     color: var(--bg-color);
 }
+
+.social-icons a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    background: var(--hover-color);
+    transition: .6s;
+    z-index: -1;
+}
+
+.social-icons a:hover:before{
+
+    width: 100%;
+}
+
+/* ABOUT SECTION */
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 2em;
+    background: var(--sec-bg-color);
+}
+
+.about.img-about{
+    text-align: center;
+    position: relative;
+
+}
