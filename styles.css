@@ -462,7 +462,7 @@ a.btn:nth-child(2)::before{
 .box{
     position: relative;
     margin: 10px 0;
-    flex:  1 1 15rem;
+    flex:  1  15rem;
 }
 
 .box .text{
@@ -507,6 +507,7 @@ a.btn:nth-child(2)::before{
     animation: glow 0.04s linear forwards;
     animation-delay: calc(var(--i)*0.05s);
 }
+
 
 
 
