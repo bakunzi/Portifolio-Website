@@ -509,6 +509,62 @@ a.btn:nth-child(2)::before{
 
 }
 
+/* PORTIFOLIO SECTION */
+.filter-button{
+    margin: 2rem;
+    text-align: center;
+}
+.filter-button .btn{
+    background: none;
+    outline: none;
+    border: none;
+    cursor:pointer;
+    font-size: .85rem;
+    font-weight: 600;
+    letter-spacing: .4px;
+    margin-left: 1.3rem;
+    color: var(--text-color);
+}
+
+.filter-button .btn:hover{
+    color: var(--hover-color);
+}
+
+.portfolio-gallary{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 2rem;
+}
+.portbox{
+    border-radius: 15px;
+    overflow: hidden;
+    background: #292e33;
+    display: flex;
+    grid-template-rows: 1fr auto;
+    align-items: center;
+    border: 2px solid var(--hover-color);
+    box-shadow: var(--neon-box-shadow);
+}
+.port-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.port-image img{
+    width: 100%;
+    opacity: .5s;
+    height: 100%;
+    transition: .5s;
+}
+
+
+
+
+
+
 
 
 
