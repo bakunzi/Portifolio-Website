@@ -536,6 +536,7 @@ a.btn:nth-child(2)::before{
     gap: 2rem;
 }
 .portbox{
+    position: relative;
     border-radius: 15px;
     overflow: hidden;
     background: #292e33;
@@ -553,14 +554,34 @@ a.btn:nth-child(2)::before{
     width: 100%;
 }
 
-.port-image img{
+.port-image  img{
     width: 100%;
     opacity: .5s;
     height: 100%;
     transition: .5s;
 }
 
+.port-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* opacity: 0; */
+    background: linear-gradient(rgba(0,0,0,.2), #12f7ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    transition: 0.5s;
+    padding: 0 2rem;
+}
 
+.port-content h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
 
 
 
