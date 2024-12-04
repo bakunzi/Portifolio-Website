@@ -290,14 +290,14 @@
 
     <div class="container">
         <div class="filter-button">
-            <button class="btn">ALL</button>
-            <button class="btn">Product</button>
-            <button class="btn">Interacting</button>
-            <button class="btn">Web App</button>
+            <button class="btn" data-filter="all">ALL</button>
+            <button class="btn" data-filter=".product">Product</button>
+            <button class="btn" data-filter=".inter">Interacting</button>
+            <button class="btn" data-filter=".web">Web App</button>
         </div>
 
         <div class="portfolio-gallary">
-            <div class="portbox">
+            <div class="portbox mix product">
                 <div class="port-image">
                     <img src="img/1.jpg" alt="">
                 </div>
@@ -310,7 +310,7 @@
                          <a href="#"><i class="bx bx-link-external"></i></a>
             </div>
         </div>
-        <div class="portbox">
+        <div class="portbox mix inter">
             <div class="port-image">
                 <img src="img/1.jpg" alt="">
             </div>
@@ -323,7 +323,7 @@
                      <a href="#"><i class="bx bx-link-external"></i></a>
         </div>
     </div>
-    <div class="portbox">
+    <div class="portbox mix inter">
         <div class="port-image">
             <img src="img/1.jpg" alt="">
         </div>
@@ -336,7 +336,7 @@
                  <a href="#"><i class="bx bx-link-external"></i></a>
     </div>
 </div>
-<div class="portbox">
+<div class="portbox mix web">
     <div class="port-image">
         <img src="img/1.jpg" alt="">
     </div>
@@ -349,7 +349,7 @@
              <a href="#"><i class="bx bx-link-external"></i></a>
 </div>
 </div>
-<div class="portbox">
+<div class="portbox mix web">
     <div class="port-image">
         <img src="img/1.jpg" alt="">
     </div>
@@ -362,7 +362,7 @@
              <a href="#"><i class="bx bx-link-external"></i></a>
 </div>
 </div>
-<div class="portbox">
+<div class="portbox mix product">
     <div class="port-image">
         <img src="img/1.jpg" alt="">
     </div>
@@ -381,7 +381,36 @@
 </section>
 
 <!--    Contact section -->
+
+<section id="contact" class="contact">
+    <div class="main-text">
+        <span>Ask me questions</span>
+        <h2>CONTACT ME</h2>
+    </div>
+ <form action="" method="get">
+      <input type="text" placeholder="Your Name">
+      <input type="text" placeholder="Your Email">
+      <input type="text" placeholder="Your Address">
+      <input type="number" placeholder="Phone Number">
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+
+      <div class="btn-box formBtn">
+
+        <button type="submit" class="btn">Send Message</button>
+      </div>
+ </form>
+</section>
+
+
+<!--    Footer section -->
+
+<footer>
+    <p>Copyright &copy; 2024 Designed by Bakunzi Daniel || All rights Reserved </p>
+
+    <a href="#home"> <i class='bx bx-up-arrow-alt'></i></a>
+</footer>
     
+<script src="mixitup.min.js"></script>
 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="script.js"></script>
 </body>
