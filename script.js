@@ -46,3 +46,23 @@ function activeMenue(){
 activeMenue()
 
 window.addEventListener("scroll", activeMenue);
+
+// Sticky Navbar
+
+const header = document.querySelector("header");
+window.addEventListener("scroll", function () {
+
+    header.classList.toggle("sticky",this.window.scrollY>50)
+    
+})
+
+// Sticky Navbar
+
+let menuIcon = document.querySelector("#menu-icon")
+
+let nav = document.querySelector(".nav")
+
+menuIcon.onclick =()=>{
+    menuIcon.classList.toggle("bx-x");
+    nav.classList.toggle("open");
+}
