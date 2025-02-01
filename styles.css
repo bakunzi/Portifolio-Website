@@ -827,7 +827,7 @@ footer a i{
     }
 
     .social-icons{
-        margin-top: 2%;
+        margin-top: 2rem;
     }
 }
 
@@ -838,10 +838,14 @@ footer a i{
         transition: all .4s ease;
     }
 
+    #menu-icon.bx-x{
+        transform: rotate(-180deg);
+    }
+
     .nav{
         display: flex;
         position: absolute;
-        top: 100%;
+        top: -1000px;
         right: 0;
         left: 0;
         flex-direction: column;
@@ -856,7 +860,9 @@ footer a i{
         padding-bottom: 1rem;
         font-size: 1rem;
     }
-    .nav .open{
+    .nav.open{
+
+        top: 100%;
 
     }
 

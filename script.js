@@ -66,3 +66,8 @@ menuIcon.onclick =()=>{
     menuIcon.classList.toggle("bx-x");
     nav.classList.toggle("open");
 }
+
+window.onscroll =()=>{
+    menuIcon.classList.remove("bx-x");
+    nav.classList.remove("open");
+}
